@@ -1,6 +1,6 @@
 package com.example.recordshop.model;
 
-public class RecordShop {
+public class Album {
     Long id;
     String name;
     String description;
@@ -9,10 +9,10 @@ public class RecordShop {
     int releaseYear;
     int stockQuantity;
 
-    public RecordShop() {
+    public Album() {
     }
 
-    public RecordShop(Long id, String name, String description, String artist, String genre, int releaseYear, int stockQuantity) {
+    public Album(Long id, String name, String description, String artist, String genre, int releaseYear, int stockQuantity) {
         this.id = id;
         this.name = name;
         this.description = description;
