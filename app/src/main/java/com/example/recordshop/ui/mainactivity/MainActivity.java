@@ -1,4 +1,4 @@
-package com.example.recordshop;
+package com.example.recordshop.ui.mainactivity;
 
 import android.app.Application;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.recordshop.R;
 import com.example.recordshop.model.AlbumRepository;
 
 public class MainActivity extends AppCompatActivity {
